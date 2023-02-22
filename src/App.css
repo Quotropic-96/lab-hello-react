@@ -14,7 +14,9 @@
 }
 
 .heading {
-  background-color: var(--main-black);
+  /* background-color: var(--main-black); */
+  background-image: url('/public/backgrounds/background.png');
+  background-position: center;
   height: 50%;
   border-radius: 10px;
   padding: 30px 60px;
