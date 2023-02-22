@@ -34,4 +34,27 @@
   height: 15px;
   width: auto;
 }
-
+.heading-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  color: var(--main-white);
+}
+.heading-container h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+.heading-container p {
+  margin: 0;
+  width: 50%;
+}
+.heading-container button {
+  margin-top: 20px;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--main-white);
+  padding: 20px 15px;
+  font-size: 1.3rem;
+}
